@@ -18,17 +18,40 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+baseurl: ""
+description: >-
+  Thoughts on what I've played.
+locale: en-US
 title: MoeGreenSpecial
-description: >- # this means to ignore newlines until "baseurl:"
-  MoeGreenSpecial's site.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://moegreenspecial.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  moegreenspecial
+url: https://moegreenspecial.com
+
+# jekyll-paginate settings
+paginate: 5
+
+# So Simple theme settings
+date_format: "%Y-%m-%d"
+footer_links:
+  - title: Feed
+    url: feed.xml
+    icon: fas fa-rss-square
+  - title: Exophase
+    url: https://www.exophase.com/user/MoeGreenSpecial/
+    icon:  fas fa-trophy
+skin: /assets/css/skins/dark.css
+tag_archive_path: "/tags/#"
+
+# Local settings
+exophase_username: MoeGreenSpecial
+exophase_gamercard_url: https://card.exophase.com/2/0/274036.png?1768506799
 
 # Build settings
-theme: minima
+remote_theme: mmistakes/so-simple-theme@3.2.0
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
 
 # Exclude from processing.
 # The following items will not be processed, by default.
