@@ -19,8 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 baseurl: ""
+copyright: >-
+    Personal reflections, written as a player ~ not in any professional capacity.
 description: >-
-  Thoughts on what I've played.
+  Played it. Reflected briefly.
 locale: en-US
 title: MoeGreenSpecial
 url: https://moegreenspecial.com
