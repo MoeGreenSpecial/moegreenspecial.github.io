@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-redirect-from", "~> 0.16"
-  gem "jekyll-relative-links", "~> 0.6"
   gem "jekyll-titles-from-headings", "~> 0.5"
 end
 

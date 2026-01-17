@@ -1,0 +1,10 @@
+.layout--goty {
+  @extend .layout--post;
+}
+
+.goty-list img {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}

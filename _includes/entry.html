@@ -1,5 +1,5 @@
 {% comment %}
-Updated from So Simple's entry.html to add game scores
+Updated from So Simple's entry.html to add game scores, and to support goty layout excerpts.
 {% endcomment %}
 
 {% if entry.id %}
@@ -29,7 +29,11 @@ Updated from So Simple's entry.html to add game scores
   {% unless page.show_excerpts == false %}
     <div class="entry-excerpt p-summary">
       {% if entry.excerpt %}
-        {{ entry.excerpt | markdownify }}
+        {% if entry.layout == "goty" %}
+          <div class="goty-list">{{ entry.excerpt | markdownify }}</div>
+        {% else %}
+          {{ entry.excerpt | markdownify }}
+        {% endif %}
       {% endif %}
     </div>
   {% endunless %}
