@@ -1,5 +1,8 @@
 {% comment %}
-Updated from So Simple's entry.html to add game scores, and to support goty layout excerpts.
+Updated from So Simple's entry.html:
+  * add game scores
+  * support goty layout excerpts
+  * add a read more link for entries with excerpts
 {% endcomment %}
 
 {% if entry.id %}
@@ -43,6 +46,8 @@ Updated from So Simple's entry.html to add game scores, and to support goty layo
         {% if site.read_time %}{% include read-time.html %}{% endif %}
         {% if entry.date %}{% include entry-date.html %}{% endif %}
         {% if entry.game_score > 0 or entry.game_like %}{% include game-rating.html %}{% endif %}
+        {% if entry.excerpt %}<div><a href="{{ entry.url | relative_url }}">Read more&nbsp;<span
+                class="link-arrow">&rarr;</span></a></div>{% endif %}
     </footer>
     {% endif %}
 </article>
