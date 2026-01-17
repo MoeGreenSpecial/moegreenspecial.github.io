@@ -1,9 +1,9 @@
 .layout--game {
-  @extend .layout--post;
+    @extend .layout--post;
 }
 
 .game-info {
-  @extend .page-author;
+    @extend .page-author;
 }
 
 .game-coverart {
@@ -13,7 +13,7 @@
     object-fit: contain;
 }
 
-.game-score-stars{
+.game-score-stars {
     color: #FF8C00;
 }
 

@@ -1,16 +1,16 @@
 {%- unless page.layout == 'collection' -%}
-  <div>
+<div>
     {% if entry.game_score > 0 %}
-        <span class="game-score-stars">
-            {% for i in (1..entry.game_score) %}
-                <i class="fa fa-star" aria-hidden="true"></i>
-            {% endfor %}
-        </span>
+    <span class="game-score-stars">
+        {% for i in (1..entry.game_score) %}
+        <i class="fa fa-star" aria-hidden="true"></i>
+        {% endfor %}
+    </span>
     {% endif %}
     {% if entry.game_like %}
-        <span class="game-score-heart">
-            <i class="fa fa-heart" aria-hidden="true"></i>
-        </span>
+    <span class="game-score-heart">
+        <i class="fa fa-heart" aria-hidden="true"></i>
+    </span>
     {% endif %}
-  </div>
+</div>
 {%- endunless -%}
