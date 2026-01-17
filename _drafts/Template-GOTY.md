@@ -1,9 +1,10 @@
 ---
-layout: goty
+layout: game-list
 excerpt: Game of the Year 2025
 tags: goty
 title: Game of the Year 2025
 goty_year: 2025
+list_type: goty
 ---
 1. ![Clair Obscur: Expedition 33](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg) Clair Obscur: Expedition 33
 

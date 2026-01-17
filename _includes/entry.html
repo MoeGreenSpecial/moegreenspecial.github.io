@@ -1,7 +1,7 @@
 {% comment %}
 Updated from So Simple's entry.html:
   * add game scores
-  * support goty layout excerpts
+  * support game list layout excerpts
   * add a read more link for entries with excerpts
 {% endcomment %}
 
@@ -33,8 +33,8 @@ Updated from So Simple's entry.html:
     {% unless page.show_excerpts == false %}
     <div class="entry-excerpt p-summary">
         {% if entry.excerpt %}
-        {% if entry.layout == "goty" %}
-        <div class="goty-list">{{ entry.excerpt | markdownify }}</div>
+        {% if entry.layout == "game-list" %}
+        <div class="game-list">{{ entry.excerpt | markdownify }}</div>
         {% else %}
         {{ entry.excerpt | markdownify }}
         {% endif %}
