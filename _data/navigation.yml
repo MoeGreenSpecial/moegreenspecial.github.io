@@ -1,4 +1,6 @@
 - title: tags
-  url: /tags.html
+  url: /tags/
 - title: search
-  url: /search.html
+  url: /search/
+- title: now playing
+  url: /now-playing/
