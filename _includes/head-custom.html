@@ -16,3 +16,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/assets/favicon/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="{{ site.baseurl }}/assets/favicon/android-chrome-512x512.png">
 <meta name="theme-color" content="#4C2A85">
+
+{% if site.allow_indexing == false %}
+<meta name="robots" content="noindex, nofollow, noarchive">
+{% endif %}

@@ -1,0 +1,6 @@
+---
+---
+{% if site.allow_indexing == false %}
+User-agent: *
+Disallow: /
+{% endif %}
