@@ -1,0 +1,22 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.language": "en",
+    "cSpell.ignorePaths": [
+        ".git/**",
+        ".github/**",
+        ".vscode/**",
+        "_sass/**",
+        "_site/**",
+        "Gemfile",
+        "Gemfile.lock"
+    ],
+    "cSpell.enabledFileTypes": {
+        "markdown": true,
+        "html": true
+    },
+    "cSpell.words": [
+        "Exophase",
+        "gamercard",
+        "noarchive"
+    ]
+}
