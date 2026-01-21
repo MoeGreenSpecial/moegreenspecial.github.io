@@ -45,7 +45,7 @@ tag_archive_path: "/tags/#"
 # Local settings
 allow_indexing: false
 exophase_username: MoeGreenSpecial
-exophase_gamercard_url: https://card.exophase.com/2/0/274036.png?1768506799
+exophase_gamercard_url: https://card.exophase.com/2/0/274036.png?1768965768
 
 # Build settings
 remote_theme: mmistakes/so-simple-theme@3.2.0
