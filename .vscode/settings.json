@@ -15,8 +15,28 @@
         "html": true
     },
     "cSpell.words": [
+        "Arkanoid",
+        "Atlus",
+        "Bananza",
+        "cinematics",
         "Exophase",
+        "Fabrizio",
         "gamercard",
-        "noarchive"
-    ]
+        "Giatta",
+        "Gommage",
+        "goty",
+        "grindy",
+        "JRPG",
+        "Maelle",
+        "Majima",
+        "noarchive",
+        "Obscur",
+        "Pictos",
+        "rougelikes",
+        "subline",
+        "Yakuza",
+        "Yatzli"
+    ],
+    "ltex.enabled": true,
+    "ltex.language": "en-US"
 }

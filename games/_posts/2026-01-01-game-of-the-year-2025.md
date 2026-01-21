@@ -8,9 +8,9 @@ list_type: goty
 ---
 1. ![Clair Obscur: Expedition 33](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg) [Clair Obscur: Expedition 33](https://backloggd.com/u/MoeGreenSpecial/review/3027652/)
 
-    What else is there to say? When I wasn't playing this game, I was thinking about this game.  The narrative hook of the Gommage was incredibly compelling, and the various twists and turns the story took kept me wondering what might happen next.  The cast of characters, noatably Maelle and Verso, are well developed and incredibly memorable.
+    What else is there to say? When I wasn't playing this game, I was thinking about this game.  The narrative hook of the Gommage was incredibly compelling, and the various twists and turns the story took kept me wondering what might happen next.  The cast of characters, notably Maelle and Verso, are well-developed and incredibly memorable.
 
-    The combination of real time parry windows and turn based JRPG-like combat worked very well together (although, I do wish there was an ability to tweak the parry window a bit).  I really enjoyed the Pictos system as well, enabling you to earn perks for your characters by using them,.  inding the best setup for your party was deeply satisfying.
+    The combination of real time parry windows and turn based JRPG-like combat worked very well together (although, I do wish there was an ability to tweak the parry window a bit).  I really enjoyed the Pictos system as well, enabling you to earn perks for your characters by using them.  Finding the best setup for your party was deeply satisfying.
 
     This is to say nothing of the art style, where everything looks subtly as though it is painted, or the music.
 
@@ -22,13 +22,13 @@ list_type: goty
 
     The combat system was a completely fresh take on typical RPG leveling.  Your strength grows not by leveling up, but through your equipment.  Since equipment upgrade resources are scarce, you really need to spend time thinking about which equipment you liked the best so that you could continually advance against tougher and tougher enemies.
 
-    I wasn't much for the lore of this one, but the companions were top notch, notably Giatta, Yatzli and especially Marius. They are well written and have interesting stories of their own that develop across the game.
+    I wasn't much for the lore of this one, but the companions were top-notch, notably Giatta, Yatzli and especially Marius. They are well written and have interesting stories of their own that develop across the game.
 
     When you have to make a choice in Avowed, rarely is there an obvious good choice and bad choice.  Further, the game is written in a way that often forces you to re-justify choices you have made in the past, which was a nice system for this style of game.
 
 3. ![Like a Dragon: Pirate Yakuza in Hawaii](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8u8o.jpg) [Like a Dragon: Pirate Yakuza in Hawaii](https://backloggd.com/u/MoeGreenSpecial/review/2580464/)
 
-    This was perhaps the most fun of the non-mainline Yakuza games.  It ditches the typical Yakuza contrast between having a serious main story and light hearted side quests in favor of being entirely in the wacky side quest style which works well for a Majima led game.  The naval combat here is quite fun, and had enough to think about between managing your crew and weapons as well as ship positioning to keep it engaging.  Because of that, the Pirate Coliseum was one of the better main minigames in the series in quite some time. 
+    This was perhaps the most fun of the non-mainline Yakuza games.  It ditches the typical Yakuza contrast between having a serious main story and light-hearted side quests in favor of being entirely in the wacky side quest style which works well for a Majima led game.  The naval combat here is quite fun, and had enough to think about between managing your crew and weapons as well as ship positioning to keep it engaging.  Because of that, the Pirate Coliseum was one of the better main mini-games in the series in quite some time. 
 
 4. ![Dispatch](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob5ql.jpg) [Dispatch](https://backloggd.com/u/MoeGreenSpecial/review/3654681/)
 
@@ -64,7 +64,7 @@ list_type: goty
 
 10. ![Keeper](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coapv6.jpg) [Keeper](https://backloggd.com/u/MoeGreenSpecial/review/3533568/)
 
-    This is a 4 or 5 hour journey through some unbelievable artistry. This game looks and sounds amazing, and the amount of work that must have gone into all the environments, many of which are only used for 20 or 30 minutes is incredible. All of the artistic details, sound, and animation, are top-notch. There's not a lot here, but what is here is beautiful to look at and clearly had a ton of care put into it.
+    This is a 4 or 5-hour journey through some unbelievable artistry. This game looks and sounds amazing, and the amount of work that must have gone into all the environments, many of which are only used for 20 or 30 minutes is incredible. All the artistic details, sound, and animation, are top-notch. There's not a lot here, but what is here is beautiful to look at and clearly had a ton of care put into it.
 
 ## Backlog Highlights
 {: class="backlog-header" }
@@ -73,7 +73,7 @@ _Games from the past that still delivered in 2025._
 
 1. ![Persona 5 Royal](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob86j.jpg) [Persona 5 Royal](https://backloggd.com/u/MoeGreenSpecial/review/3529377/)
 
-    Persona 5 Royal was my first Persona game, and by the time I had wrapped it up it had elevated itself to one of the best games I have ever played.  Both halves of the experience complement each other really well.  Developing social links to give yourself bonuses that can then be used when crawling dungeons forms a satisfying core gameplay loop.  Each of the main dungeons is incredibly well designed and themed, and many had some on-theme light puzzling to go along with the standard dungeon crawl.  Mechanics are added on as you advance through each of the dungeons so that combat doesn't wind up feeling stale even after 150 hours.  With that being said, Mementos can start to feel a bit grindy after a while, however having hand-crafted main dungeons to come back to helps break up the potential monotony there.
+    Persona 5 Royal was my first Persona game, and by the time I had wrapped it up it had elevated itself to one of the best games I have ever played.  Both halves of the experience complement each other really well.  Developing social links to give yourself bonuses that can then be used when crawling dungeons forms a satisfying core gameplay loop.  Each of the main dungeons is incredibly well-designed and themed, and many had some on-theme light puzzling to go along with the standard dungeon crawl.  Mechanics are added on as you advance through each of the dungeons so that combat doesn't wind up feeling stale even after 150 hours.  With that being said, Mementos can start to feel a bit grindy after a while, however having hand-crafted main dungeons to come back to helps break up the potential monotony there.
 
     The cast of characters and plot are incredibly well done, and each of the mini stories with the confidants (with the possible exceptions of Empress and Emperor) were interesting as well.  The characters in your party in particular stuck with me more than the characters from other Atlus games I've played.
 
@@ -89,4 +89,4 @@ _Games from the past that still delivered in 2025._
 
     The Old Gods of Asgard sequences, however, are some that will stick with me for a very long time.
 
-    I see why a lot of people love this one, but for me it's just outside of the type of game I enjoy playing.
+    I see why a lot of people love this one, but for me, it's just outside the type of game I enjoy playing.
