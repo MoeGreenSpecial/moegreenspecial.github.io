@@ -1,0 +1,12 @@
+---
+layout: post
+---
+
+<div class="game-list-content">
+    {% if page.list_type == "goty" %}
+    <h1>Game of the Year: {{ page.goty_year }}</h1>
+    {% endif %}
+    <div class="game-list">
+        {{ content }}
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.layout--game {
+    @extend .layout--post;
+}
+
+.game-info {
+    @extend .page-author;
+}
+
+.game-coverart {
+    max-width: 75px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.game-score-stars {
+    color: #FF8C00;
+}
+
+.game-score-heart {
+    color: #C71585;
+}

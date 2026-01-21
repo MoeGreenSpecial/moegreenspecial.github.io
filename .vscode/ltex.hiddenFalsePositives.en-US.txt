@@ -1,0 +1,6 @@
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QAvowed Avowed\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QDispatch Dispatch\\E$"}
+{"rule":"PCT_PLURAL_NOUN_SINGULAR_VERB_AGREEMENT","sentence":"^\\QThe story was completely nonsensical to me, but that doesn't take away from just how fun Doom: The Dark Ages was to play.\\E$"}
+{"rule":"PHRASE_REPETITION","sentence":"^\\QHades II Hades II\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QKeeper Keeper\\E$"}
+{"rule":"A_NNS","sentence":"^\\QTartarus is effectively just a longer Mementos, but the big difference here is that it's the only dungeon while Mementos was something to do between the handcrafted dungeons of Persona 5.\\E$"}

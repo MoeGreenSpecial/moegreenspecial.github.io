@@ -1,0 +1,30 @@
+<div class="game-info">
+    <div class="page-taxonomies-title">{{ page.game_title }}</div>
+    {% if page.game_cover_art %}
+    <div><img src="{{ page.game_cover_art }}" alt="{{ page.game_title }} cover art" class="game-coverart" /></div>
+    {% endif %}
+    <div class="game-score">
+        {% if page.game_score > 0 %}
+        <span class="game-score-stars">
+            {% for i in (1..page.game_score) %}
+            <i class="fa fa-star" aria-hidden="true"></i>
+            {% endfor %}
+        </span>
+        {% endif %}
+        {% if page.game_like %}
+        <span class="game-score-heart">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+        </span>
+        {% endif %}
+        {% if page.game_platform %}
+        <div>Played on {{ page.game_platform }}</div>
+        {% endif %}
+        {% if page.game_time %}
+        {% if page.game_completed %}
+        <div>Completed in {{ page.game_time }}</div>
+        {% else %}
+        <div>Played for {{ page.game_time }}</div>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>

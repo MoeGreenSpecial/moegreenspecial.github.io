@@ -1,0 +1,26 @@
+.layout--game-list {
+    @extend .layout--post;
+}
+
+.game-list img {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.game-list p:first-of-type {
+    @extend h3;
+}
+
+.backlog-header {
+  color: #d19a66;
+  margin-bottom: 5px;
+}
+
+.backlog-subline {
+  font-style: italic;
+  color: #777;
+  font-size: 80%;
+  margin-bottom: 20px;
+}
