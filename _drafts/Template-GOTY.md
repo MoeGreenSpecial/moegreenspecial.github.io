@@ -13,3 +13,10 @@ list_type: goty
     Yes, I know that P3R wasn't a 2025 game. However, it's included here to have a sample for how to link to another post, and that's the only other current post available. It also allows testing styling for including text after the game title
 
 3. ![Avowed](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7nbb.jpg) Avowed
+
+## Backlog Highlights
+{: class="backlog-header" }
+_Games from the past that still delivered in 2025._
+{: class="backlog-subline" }
+
+1. Old game 1
