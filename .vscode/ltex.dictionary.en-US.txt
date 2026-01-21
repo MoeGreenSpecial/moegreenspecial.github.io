@@ -5,6 +5,8 @@ cinematics
 endcomment
 endif
 evoker
+Exophase
+Gamercard
 Giatta
 Gommage
 grindy
