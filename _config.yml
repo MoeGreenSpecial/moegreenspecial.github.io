@@ -40,8 +40,13 @@ footer_links:
     url: now-playing
     icon:  fas fa-trophy
 skin: /assets/css/skins/dark.css
-search_full_content: true
 tag_archive_path: "/tags/#"
+
+# So Simple search settings - many of these require custom modifications to the theme
+search_context_unique_word_count: 250
+search_excerpt_word_length: 25
+search_full_content: false
+search_min_word_length: 4
 
 # Local settings
 allow_indexing: false

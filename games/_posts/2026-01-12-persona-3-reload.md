@@ -1,6 +1,6 @@
 ---
 layout: game
-tags: games persona steam
+tags: games steam atlus persona jrpg
 game_completed: true
 game_completed_date: 2026-01-12
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co6z12.jpg

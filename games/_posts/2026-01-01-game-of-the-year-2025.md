@@ -5,6 +5,7 @@ tags: goty
 title: Game of the Year 2025
 goty_year: 2025
 list_type: goty
+search_terms: [ "Clair Obscur: Expedition 33", Avowed, "Like a Dragon: Pirate Yakuza in Hawaii", Dispatch, "Doom: The Dark Ages", "Mafia: The Old Country", "Donkey Kong Bananza", "Ball x Pit", "Hades II", Keeper, "Persona 5 Royal", "Persona 3 Reload", "Alan Wake 2" ]
 ---
 1. ![Clair Obscur: Expedition 33](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg) [Clair Obscur: Expedition 33](https://backloggd.com/u/MoeGreenSpecial/review/3027652/)
 
@@ -68,7 +69,7 @@ list_type: goty
 
 ## Backlog Highlights
 {: class="backlog-header" }
-_Games from the past that still delivered in 2025._
+_Games from the past that still delivered in {{ page.goty_year }}._
 {: class="backlog-subline" }
 
 1. ![Persona 5 Royal](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob86j.jpg) [Persona 5 Royal](https://backloggd.com/u/MoeGreenSpecial/review/3529377/)
