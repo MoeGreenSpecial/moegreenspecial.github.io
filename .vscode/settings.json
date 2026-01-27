@@ -15,6 +15,7 @@
         "html": true
     },
     "cSpell.words": [
+        "Aigis",
         "Arkanoid",
         "Atlus",
         "Bananza",
@@ -35,7 +36,8 @@
         "rougelikes",
         "subline",
         "Yakuza",
-        "Yatzli"
+        "Yatzli",
+        "Yukari"
     ],
     "ltex.enabled": true,
     "ltex.language": "en-US"

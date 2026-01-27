@@ -1,3 +1,4 @@
+Aigis
 Arkanoid
 Atlus
 Bananza
@@ -18,3 +19,4 @@ Pictos
 rougelikes
 url
 Yatzli
+Yukari
