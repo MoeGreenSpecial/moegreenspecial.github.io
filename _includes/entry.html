@@ -40,6 +40,7 @@ Updated from So Simple's entry.html:
     <footer class="entry-meta">
         {% if site.read_time %}{% include read-time.html %}{% endif %}
         {% if entry.date %}{% include entry-date.html %}{% endif %}
+        {% if entry.game_cover_art %}<div><img src="{{ entry.game_cover_art }}" alt="{{ entry.game_title }} cover art" class="game-coverart" /></div>{% endif %}
         {% if entry.game_score > 0 or entry.game_like %}{% include game-rating.html %}{% endif %}
         {% if entry.excerpt %}<div><a href="{{ entry.url | relative_url }}">Read more&nbsp;<span
                 class="link-arrow">&rarr;</span></a></div>{% endif %}
