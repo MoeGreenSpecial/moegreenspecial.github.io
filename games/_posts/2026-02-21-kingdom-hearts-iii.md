@@ -6,7 +6,7 @@ game_completed_date: 2026-02-21
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpy.jpg
 game_like: false
 game_mastered: false
-game_platform: steam
+game_platform: Steam
 game_score: 2
 game_time: "40h 14m"
 game_title: "Kingdom Hearts III"
