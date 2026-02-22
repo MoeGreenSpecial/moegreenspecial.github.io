@@ -1,5 +1,6 @@
 Aigis
 Arkanoid
+Arendelle
 Atlus
 Bananza
 cinematics
@@ -10,10 +11,13 @@ Exophase
 Gamercard
 Giatta
 Gommage
+Gummi
 grindy
 JRPG-like
+Keyblade
 Maelle
 Majima
+mashy
 Obscur
 Pictos
 rougelikes

@@ -1,6 +1,6 @@
 ---
 layout: game
-tags: games platform publisher series genre others
+tags: [ games, platform, publisher, series, genre, others ]
 game_completed:
 game_completed_date:
 game_cover_art:
