@@ -8,11 +8,13 @@ endcomment
 endif
 evoker
 Exophase
+Frasier
 Gamercard
 Giatta
 Gommage
 Gummi
 grindy
+Jorb
 JRPG-like
 Keyblade
 Maelle
@@ -21,6 +23,8 @@ mashy
 Obscur
 Pictos
 rougelikes
+Smoove
+Squanch
 url
 Yatzli
 Yukari
