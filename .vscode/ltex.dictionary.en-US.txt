@@ -3,6 +3,7 @@ Arkanoid
 Arendelle
 Atlus
 Bananza
+Chrono
 cinematics
 endcomment
 endif
@@ -22,6 +23,7 @@ Majima
 mashy
 Obscur
 Pictos
+playthrough
 rougelikes
 Smoove
 Squanch
