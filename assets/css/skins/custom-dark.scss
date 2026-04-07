@@ -1,0 +1,48 @@
+---
+---
+
+@charset "utf-8";
+
+@import "so-simple/functions";
+@import "so-simple/variables";
+@import "so-simple/notices";
+
+/* Custom dark skin for MoeGreenSpecial
+ * Based on So Simple dark skin with purple accent to match favicon branding (#4C2A85)
+ */
+
+/* Colors */
+$base-color: #eaeaea !default;
+$text-color: #eaeaea !default;
+$accent-color: #9b7ed8 !default;
+$nav-color: #b0a8c0 !default;
+$background-color: #1e1e2e !default;
+$nav-background-color: mix(#000, $background-color, 30%) !default;
+$code-background-color: mix(#000, $background-color, 15%) !default;
+$border-color: tint($base-color, 80%) !default;
+
+$primary-color: white !default;
+$success-color: rgb(48, 209, 88) !default;
+$warning-color: rgb(255, 214, 10) !default;
+$danger-color: rgb(255, 69, 58) !default;
+$info-color: rgb(180, 160, 255) !default;
+
+/* Syntax highlighting — material-style palette with purple tint */
+$base00: #1e1e2e;
+$base01: #282840;
+$base02: #313148;
+$base03: #6c6c8a;
+$base04: #b2b2d6;
+$base05: #eeeeff;
+$base06: #eeeeff;
+$base07: #ffffff;
+$base08: #f07178;
+$base09: #f78c6c;
+$base0a: #ffcb6b;
+$base0b: #c3e88d;
+$base0c: #89ddff;
+$base0d: #b4a0ff;
+$base0e: #c792ea;
+$base0f: #ff5370;
+
+@import "so-simple/skin";
