@@ -17,7 +17,7 @@ search_terms: [ "Each Game", "On The List" ]
 
 ## Backlog Highlights
 {: class="backlog-header" }
-_Games from the past that still delivered in {{ page.goty_year }}._
+_Not new, but new to me._
 {: class="backlog-subline" }
 
 1. ![Persona 3 Reload](https://images.igdb.com/igdb/image/upload/t_cover_big/co6z12.jpg) [Persona 3 Reload]({% post_url games/2026-01-12-persona-3-reload %})

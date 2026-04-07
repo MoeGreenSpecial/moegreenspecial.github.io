@@ -1,5 +1,4 @@
 <div class="game-info">
-    <div class="page-taxonomies-title">{{ page.game_title }}</div>
     {% if page.game_cover_art %}
     <div><img src="{{ page.game_cover_art }}" alt="{{ page.game_title }} cover art" class="game-coverart" /></div>
     {% endif %}
@@ -9,6 +8,12 @@
             {% for i in (1..page.game_score) %}
             <i class="fa fa-star" aria-hidden="true"></i>
             {% endfor %}
+            {% assign empty_stars = 5 | minus: page.game_score %}
+            {% if empty_stars > 0 %}
+            {% for i in (1..empty_stars) %}
+            <i class="far fa-star" aria-hidden="true"></i>
+            {% endfor %}
+            {% endif %}
         </span>
         {% endif %}
         {% if page.game_like %}

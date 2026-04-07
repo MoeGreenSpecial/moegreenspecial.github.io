@@ -1,6 +1,6 @@
 ---
 layout: game
-tags: [ games, steam, ember lab, adventure ]
+tags: [ steam, ember lab, adventure ]
 game_completed: true
 game_completed_date: 2026-04-05
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hwy.jpg

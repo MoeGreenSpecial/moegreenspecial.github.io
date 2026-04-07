@@ -1,6 +1,6 @@
 ---
 layout: game
-tags: [ games, steam, "square enix", jrpg, classics ]
+tags: [ steam, square enix, jrpg, classics ]
 game_completed: true
 game_completed_date: 2026-04-01
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co87df.jpg

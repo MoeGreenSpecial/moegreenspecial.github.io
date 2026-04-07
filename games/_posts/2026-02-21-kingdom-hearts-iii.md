@@ -1,6 +1,6 @@
 ---
 layout: game
-tags: [games, steam, square enix, kingdom hearts, action rpg]
+tags: [ steam, square enix, kingdom hearts, action rpg ]
 game_completed: true
 game_completed_date: 2026-02-21
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpy.jpg

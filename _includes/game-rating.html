@@ -5,6 +5,12 @@
         {% for i in (1..entry.game_score) %}
         <i class="fa fa-star" aria-hidden="true"></i>
         {% endfor %}
+        {% assign empty_stars = 5 | minus: entry.game_score %}
+        {% if empty_stars > 0 %}
+        {% for i in (1..empty_stars) %}
+        <i class="far fa-star" aria-hidden="true"></i>
+        {% endfor %}
+        {% endif %}
     </span>
     {% endif %}
     {% if entry.game_like %}

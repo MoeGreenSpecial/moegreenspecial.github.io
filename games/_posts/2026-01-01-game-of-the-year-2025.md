@@ -69,7 +69,7 @@ search_terms: [ "Clair Obscur: Expedition 33", Avowed, "Like a Dragon: Pirate Ya
 
 ## Backlog Highlights
 {: class="backlog-header" }
-_Games from the past that still delivered in {{ page.goty_year }}._
+_Not new, but new to me._
 {: class="backlog-subline" }
 
 1. ![Persona 5 Royal](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob86j.jpg) [Persona 5 Royal](https://backloggd.com/u/MoeGreenSpecial/review/3529377/)
@@ -82,7 +82,7 @@ _Games from the past that still delivered in {{ page.goty_year }}._
 
     After finishing Persona 5 Royal, I jumped into Persona 3 Reload.  While the game was good, it doesn't hold up nearly as well when viewed alongside Persona 5.  What was interesting, however, was seeing some of the ideas in Persona 3 more fully realized in Persona 5.  Story wise, Persona 3 was significantly darker than Persona 5 with themes heavily focusing on death and mortality.  And I would be remiss not to mention that the animation that plays when you summon your Persona involves your characters shooting themselves in the head with their evoker (which visually resembles a real gun).  This animation cannot be disabled or skipped.
 
-    There are good bones here. The core gameplay is still fun, although Tartarus is a bit more grindy than the bespoke dungeons of Persona 5.  The story is dark, but compelling. The story is dark but compelling, and viewed through a historical lens, it was interesting to see how the series’ ideas and systems have evolved over time.
+    There are good bones here. The core gameplay is still fun, although Tartarus is a bit more grindy than the bespoke dungeons of Persona 5.  The story is dark but compelling, and viewed through a historical lens, it was interesting to see how the series’ ideas and systems have evolved over time.
 
 3. ![Alan Wake II](https://images.igdb.com/igdb/image/upload/t_cover_big/co6jar.jpg) [Alan Wake II](https://backloggd.com/u/MoeGreenSpecial/review/3160527/)
 

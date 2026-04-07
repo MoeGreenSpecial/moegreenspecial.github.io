@@ -2,21 +2,79 @@
     @extend .layout--post;
 }
 
+/* Game info sidebar card */
 .game-info {
     @extend .page-author;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5em;
 }
 
 .game-coverart {
-    max-width: 75px;
+    max-width: 150px;
     width: auto;
     height: auto;
     object-fit: contain;
+    border-radius: 4px;
+}
+
+.game-score {
+    margin-top: 0.75em;
 }
 
 .game-score-stars {
     color: #FF8C00;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+
+    .far.fa-star {
+        opacity: 0.3;
+    }
 }
 
 .game-score-heart {
     color: #C71585;
+    font-size: 1.1em;
+    margin-left: 2px;
+}
+
+/* Homepage entry with cover art */
+.entry--has-cover {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+}
+
+.entry-cover {
+    flex-shrink: 0;
+}
+
+.entry-cover-img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+}
+
+.entry-cover-img:hover {
+    opacity: 0.85;
+}
+
+.entry-body {
+    flex: 1;
+    min-width: 0;
+}
+
+/* On small screens, stack vertically */
+@media (max-width: 500px) {
+    .entry--has-cover {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .entry-cover-img {
+        width: 100px;
+    }
 }
