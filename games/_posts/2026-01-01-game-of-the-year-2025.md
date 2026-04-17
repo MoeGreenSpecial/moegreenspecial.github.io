@@ -59,7 +59,7 @@ search_terms: [ "Clair Obscur: Expedition 33", Avowed, "Like a Dragon: Pirate Ya
 
 9. ![Hades II](https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaknx.jpg) [Hades II](https://backloggd.com/u/MoeGreenSpecial/review/3728812/)
 
-    This is very much Hades 2, which I suppose is both a good and a bad thing. The fantastic gameplay, music, and art from Hades returns and are expanded upon with larger areas to guide your character through. However, this didn't feel as fresh to me as Hades did back in 2020, perhaps because of all the rougelikes that have come since then. The main thing that felt off about Hades 2 compared to Hades 1 is that in Hades 1 I always felt like I was progressing after each failure - whereas in Hades 2 there are so many different collectible currencies that need to be gathered, and so many different types of upgrades to go after, that many of my runs felt like I wasn't making much progress at all.
+    This is very much Hades 2, which I suppose is both a good and a bad thing. The fantastic gameplay, music, and art from Hades returns and are expanded upon with larger areas to guide your character through. However, this didn't feel as fresh to me as Hades did back in 2020, perhaps because of all the roguelikes that have come since then. The main thing that felt off about Hades 2 compared to Hades 1 is that in Hades 1 I always felt like I was progressing after each failure - whereas in Hades 2 there are so many different collectible currencies that need to be gathered, and so many different types of upgrades to go after, that many of my runs felt like I wasn't making much progress at all.
 
     It's still Hades, so it's still fun, but it didn't hit as hard as the original for me.
 
