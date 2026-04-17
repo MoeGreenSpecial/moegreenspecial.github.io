@@ -37,6 +37,26 @@ Updated from So Simple's entry.html:
             {% assign entry_image = entry_image | escape %}
             <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
             {% endif %}
+            {% if entry.game_score > 0 or entry.game_like or entry.game_status %}
+            <div class="entry-game-meta">
+                {% if entry.game_score > 0 or entry.game_like %}{% include game-rating.html %}{% endif %}
+                {% if entry.game_status %}
+                <span class="entry-status">
+                    {% if entry.game_status == "completed" %}
+                    <span class="game-status game-status--completed"><i class="fa fa-trophy" aria-hidden="true"></i> Completed</span>
+                    {% elsif entry.game_status == "beaten" %}
+                    <span class="game-status game-status--beaten"><i class="fa fa-check" aria-hidden="true"></i> Beaten</span>
+                    {% elsif entry.game_status == "playing" %}
+                    <span class="game-status game-status--playing"><i class="fa fa-play" aria-hidden="true"></i> Playing</span>
+                    {% elsif entry.game_status == "on-hold" %}
+                    <span class="game-status game-status--on-hold"><i class="fa fa-pause" aria-hidden="true"></i> On Hold</span>
+                    {% elsif entry.game_status == "abandoned" %}
+                    <span class="game-status game-status--abandoned"><i class="fa fa-ban" aria-hidden="true"></i> Abandoned</span>
+                    {% endif %}
+                </span>
+                {% endif %}
+            </div>
+            {% endif %}
         </header>
         {% unless page.show_excerpts == false %}
         <div class="entry-excerpt p-summary">
@@ -49,7 +69,6 @@ Updated from So Simple's entry.html:
         <footer class="entry-meta">
             {% if site.read_time %}{% include read-time.html %}{% endif %}
             {% if entry.date %}{% include entry-date.html %}{% endif %}
-            {% if entry.game_score > 0 or entry.game_like %}{% include game-rating.html %}{% endif %}
             {% if entry.excerpt %}<div><a href="{{ entry.url | relative_url }}">Read more&nbsp;<span
                     class="link-arrow">&rarr;</span></a></div>{% endif %}
         </footer>
