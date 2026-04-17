@@ -190,3 +190,133 @@
 .entries-list .entry:last-child {
     border-bottom: none;
 }
+
+/* Tags page */
+.tag-cloud {
+    margin-bottom: 2rem;
+    line-height: 2;
+}
+
+.tag-chip {
+    display: inline-block;
+    padding: 0.15em 0.55em;
+    margin: 0.15em 0.1em;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    font-size: 0.8em;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s ease;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.12);
+        text-decoration: none;
+    }
+}
+
+.tag-count {
+    opacity: 0.5;
+    font-size: 0.85em;
+    margin-left: 0.15em;
+}
+
+.tag-section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.tag-section-title {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+    padding: 0.6em 0;
+    cursor: pointer;
+    text-transform: capitalize;
+    user-select: none;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.tag-section-toggle {
+    display: inline-block;
+    width: 1.2em;
+    font-size: 0.7em;
+    transition: transform 0.2s ease;
+}
+
+.tag-section--open .tag-section-toggle {
+    transform: rotate(90deg);
+}
+
+.tag-section-count {
+    opacity: 0.4;
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-left: 0.3em;
+}
+
+.tag-posts {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.5em 0;
+    display: none;
+}
+
+.tag-section--open .tag-posts {
+    display: block;
+}
+
+.tag-post {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.4em 0;
+}
+
+.tag-post-cover-img {
+    width: 36px;
+    height: auto;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.tag-post-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5em;
+}
+
+.tag-post-title {
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.tag-post-meta {
+    font-size: 0.8em;
+    opacity: 0.7;
+
+    .game-score-stars {
+        font-size: 0.9em;
+        letter-spacing: 1px;
+    }
+
+    .game-score-heart {
+        font-size: 0.9em;
+        margin-right: 0.3em;
+    }
+
+    time {
+        margin-left: 0.3em;
+    }
+}
