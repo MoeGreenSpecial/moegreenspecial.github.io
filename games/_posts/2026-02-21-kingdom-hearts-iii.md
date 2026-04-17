@@ -1,11 +1,10 @@
 ---
 layout: game
 tags: [ steam, square enix, kingdom hearts, action rpg ]
-game_completed: true
 game_completed_date: 2026-02-21
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpy.jpg
 game_like: false
-game_mastered: false
+game_status: beaten
 game_platform: Steam
 game_score: 2
 game_time: "40h 14m"

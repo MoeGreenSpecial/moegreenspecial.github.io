@@ -1,11 +1,10 @@
 ---
 layout: game
 tags: [ steam, ember lab, adventure ]
-game_completed: true
 game_completed_date: 2026-04-05
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hwy.jpg
 game_like: true
-game_mastered: false
+game_status: beaten
 game_platform: Steam
 game_score: 3
 game_time: "11h 26m"

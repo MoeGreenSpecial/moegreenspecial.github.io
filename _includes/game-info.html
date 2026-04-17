@@ -21,11 +21,26 @@
             <i class="fa fa-heart" aria-hidden="true"></i>
         </span>
         {% endif %}
+        {% if page.game_status %}
+        <div>
+            {% if page.game_status == "completed" %}
+            <span class="game-status game-status--completed"><i class="fa fa-trophy" aria-hidden="true"></i> Completed</span>
+            {% elsif page.game_status == "beaten" %}
+            <span class="game-status game-status--beaten"><i class="fa fa-check" aria-hidden="true"></i> Beaten</span>
+            {% elsif page.game_status == "playing" %}
+            <span class="game-status game-status--playing"><i class="fa fa-play" aria-hidden="true"></i> Playing</span>
+            {% elsif page.game_status == "on-hold" %}
+            <span class="game-status game-status--on-hold"><i class="fa fa-pause" aria-hidden="true"></i> On Hold</span>
+            {% elsif page.game_status == "abandoned" %}
+            <span class="game-status game-status--abandoned"><i class="fa fa-ban" aria-hidden="true"></i> Abandoned</span>
+            {% endif %}
+        </div>
+        {% endif %}
         {% if page.game_platform %}
         <div>Played on {{ page.game_platform }}</div>
         {% endif %}
         {% if page.game_time %}
-        {% if page.game_completed %}
+        {% if page.game_status == "completed" or page.game_status == "beaten" %}
         <div>Completed in {{ page.game_time }}</div>
         {% else %}
         <div>Played for {{ page.game_time }}</div>

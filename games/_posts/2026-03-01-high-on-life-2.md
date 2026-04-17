@@ -1,11 +1,10 @@
 ---
 layout: game
 tags: [ xbox pc, squanch games, high on life, fps ]
-game_completed: true
 game_completed_date: 2026-03-01
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co9xyv.jpg
 game_like: false
-game_mastered: false
+game_status: beaten
 game_platform: "Xbox PC"
 game_score: 3
 game_time: "14h 58m"

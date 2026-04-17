@@ -1,11 +1,10 @@
 ---
 layout: game
 tags: [ steam, atlus, persona, jrpg ]
-game_completed: true
 game_completed_date: 2026-01-26
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co7v33.jpg
 game_like: false
-game_mastered: true
+game_status: completed
 game_platform: Steam
 game_score: 3
 game_time: "30h 42m"
