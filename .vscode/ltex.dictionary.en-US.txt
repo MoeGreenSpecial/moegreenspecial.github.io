@@ -34,7 +34,10 @@ overworld
 overworlds
 Pictos
 playthrough
-rougelikes
+roguelike
+roguelikes
+roguelite
+roguelites
 Smoove
 Squanch
 subline

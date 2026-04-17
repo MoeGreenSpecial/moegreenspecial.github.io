@@ -1,6 +1,6 @@
 ---
 layout: game
-tags: [ xbox pc, squanch games, high on life, fps ]
+tags: [ xbox-pc, squanch games, high on life, fps ]
 game_completed_date: 2026-03-01
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co9xyv.jpg
 game_like: false
