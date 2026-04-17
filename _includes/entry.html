@@ -37,9 +37,9 @@ Updated from So Simple's entry.html:
             {% assign entry_image = entry_image | escape %}
             <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
             {% endif %}
-            {% if entry.game_score > 0 or entry.game_like or entry.game_status %}
+            {% if entry.game_score and entry.game_score > 0 or entry.game_like or entry.game_status %}
             <div class="entry-game-meta">
-                {% if entry.game_score > 0 or entry.game_like %}{% include game-rating.html %}{% endif %}
+                {% if entry.game_score and entry.game_score > 0 or entry.game_like %}{% include game-rating.html %}{% endif %}
                 {% if entry.game_status %}
                 <span class="entry-status">
                     {% if entry.game_status == "completed" %}

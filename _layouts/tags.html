@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+<main id="main" class="main-content" aria-label="Content">
+  <article>
+    <div class="page-wrapper">
+      <header class="page-header">
+        <h1 id="page-title" class="page-title">Tags</h1>
+      </header>
+      <div class="page-content">
+
+        <div class="tag-cloud">
+          {% assign sorted_tags = site.tags | sort %}
+          {% for tag in sorted_tags %}
+            <a href="#{{ tag[0] | slugify }}" class="tag-chip" data-tag="{{ tag[0] | slugify }}">
+              {{ tag[0] }} <span class="tag-count">{{ tag[1].size }}</span>
+            </a>
+          {% endfor %}
+        </div>
+
+        {% for tag in sorted_tags %}
+        <section id="{{ tag[0] | slugify }}" class="tag-section">
+          <h2 class="tag-section-title" data-tag="{{ tag[0] | slugify }}">
+            <span class="tag-section-toggle"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+            {{ tag[0] }}
+            <span class="tag-section-count">{{ tag[1].size }}</span>
+          </h2>
+          <ul class="tag-posts">
+            {% for post in tag[1] %}
+            <li class="tag-post">
+              {% if post.game_cover_art %}
+              <a href="{{ post.url | relative_url }}" class="tag-post-cover">
+                <img src="{{ post.game_cover_art }}" alt="" class="tag-post-cover-img" />
+              </a>
+              {% endif %}
+              <div class="tag-post-info">
+                <a href="{{ post.url | relative_url }}" class="tag-post-title">{{ post.title }}</a>
+                <span class="tag-post-meta">
+                  {% if post.game_score and post.game_score > 0 %}
+                  <span class="game-score-stars">
+                    {% assign score_stars = "1,2,3,4,5" | split: "," %}
+                    {% for s in score_stars %}{% assign s_num = s | plus: 0 %}{% if s_num <= post.game_score %}<i class="fa fa-star" aria-hidden="true"></i>{% else %}<i class="far fa-star" aria-hidden="true"></i>{% endif %}{% endfor %}
+                  </span>
+                  {% endif %}
+                  {% if post.game_like %}<span class="game-score-heart"><i class="fa fa-heart" aria-hidden="true"></i></span>{% endif %}
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                </span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endfor %}
+
+      </div>
+    </div>
+  </article>
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Open a section by hash
+  function openFromHash() {
+    var hash = window.location.hash.substring(1);
+    if (hash) {
+      var section = document.getElementById(hash);
+      if (section && section.classList.contains('tag-section')) {
+        section.classList.add('tag-section--open');
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
+
+  // Toggle sections on title click
+  document.querySelectorAll('.tag-section-title').forEach(function(title) {
+    title.addEventListener('click', function() {
+      this.parentElement.classList.toggle('tag-section--open');
+    });
+  });
+
+  // Clicking a chip opens the corresponding section
+  document.querySelectorAll('.tag-chip').forEach(function(chip) {
+    chip.addEventListener('click', function(e) {
+      e.preventDefault();
+      var tag = this.getAttribute('data-tag');
+      var section = document.getElementById(tag);
+      if (section) {
+        section.classList.add('tag-section--open');
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // Handle initial load and back/forward navigation
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
+});
+</script>

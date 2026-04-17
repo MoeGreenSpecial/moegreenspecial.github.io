@@ -1,6 +1,6 @@
 {%- unless page.layout == 'collection' -%}
 <div>
-    {% if entry.game_score > 0 %}
+    {% if entry.game_score and entry.game_score > 0 %}
     <span class="game-score-stars">
         {% for i in (1..entry.game_score) %}
         <i class="fa fa-star" aria-hidden="true"></i>
