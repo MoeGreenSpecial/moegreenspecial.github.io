@@ -1,11 +1,10 @@
 ---
 layout: game
 tags: [ steam, square enix, jrpg, classics ]
-game_completed: true
 game_completed_date: 2026-04-01
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big/co87df.jpg
 game_like: true
-game_mastered: false
+game_status: beaten
 game_platform: Steam
 game_score: 4
 game_time:  "28h 36m"
