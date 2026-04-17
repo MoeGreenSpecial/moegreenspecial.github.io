@@ -2,9 +2,12 @@
     {% if page.game_cover_art %}
     <div><img src="{{ page.game_cover_art }}" alt="{{ page.game_title }} cover art" class="game-coverart" /></div>
     {% endif %}
+    {% if page.game_title %}
+    <div class="game-info-title">{{ page.game_title }}</div>
+    {% endif %}
     <div class="game-score">
         {% if page.game_score > 0 %}
-        <span class="game-score-stars">
+        <span class="game-score-stars" title="{{ page.game_score }} out of 5">
             {% for i in (1..page.game_score) %}
             <i class="fa fa-star" aria-hidden="true"></i>
             {% endfor %}
@@ -36,14 +39,23 @@
             {% endif %}
         </div>
         {% endif %}
+    </div>
+    <div class="game-details">
         {% if page.game_platform %}
-        <div>Played on {{ page.game_platform }}</div>
+        <div class="game-detail"><i class="fa fa-gamepad" aria-hidden="true"></i> {{ page.game_platform }}</div>
         {% endif %}
         {% if page.game_time %}
+        <div class="game-detail"><i class="fa fa-clock" aria-hidden="true"></i>
+            {% if page.game_status == "completed" or page.game_status == "beaten" %}
+            {{ page.game_time }}
+            {% else %}
+            {{ page.game_time }} so far
+            {% endif %}
+        </div>
+        {% endif %}
+        {% if page.game_completed_date and page.game_completed_date != "yyyy-mm-dd" %}
         {% if page.game_status == "completed" or page.game_status == "beaten" %}
-        <div>Completed in {{ page.game_time }}</div>
-        {% else %}
-        <div>Played for {{ page.game_time }}</div>
+        <div class="game-detail"><i class="fa fa-calendar-check" aria-hidden="true"></i> {{ page.game_completed_date | date: "%b %-d, %Y" }}</div>
         {% endif %}
         {% endif %}
     </div>
