@@ -180,3 +180,13 @@
         margin-left: calc(60px + 0.75rem);
     }
 }
+
+/* Separators between homepage entries */
+.entries-list .entry {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.entries-list .entry:last-child {
+    border-bottom: none;
+}
