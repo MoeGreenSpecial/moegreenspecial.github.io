@@ -52,12 +52,8 @@
 }
 
 .game-status {
-    display: inline-block;
-    padding: 0.2em 0.65em;
-    border-radius: 999px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 600;
-    letter-spacing: 0.02em;
     margin-top: 0.5em;
 
     i {
@@ -66,27 +62,22 @@
 }
 
 .game-status--completed {
-    background: rgba(76, 175, 80, 0.15);
     color: #4CAF50;
 }
 
 .game-status--beaten {
-    background: rgba(33, 150, 243, 0.15);
     color: #42A5F5;
 }
 
 .game-status--playing {
-    background: rgba(156, 39, 176, 0.15);
     color: #BA68C8;
 }
 
 .game-status--on-hold {
-    background: rgba(255, 152, 0, 0.15);
     color: #FFA726;
 }
 
 .game-status--abandoned {
-    background: rgba(244, 67, 54, 0.15);
     color: #EF5350;
 }
 
