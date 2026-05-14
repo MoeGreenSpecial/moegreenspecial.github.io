@@ -3,6 +3,7 @@ Arkanoid
 Arendelle
 Atlus
 Bananza
+Capcom
 Chrono
 cinematics
 endcomment
@@ -36,6 +37,7 @@ overworld
 overworlds
 Pictos
 playthrough
+pragmata
 Pugnala
 roguelike
 roguelikes
