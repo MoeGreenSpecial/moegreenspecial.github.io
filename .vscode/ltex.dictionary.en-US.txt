@@ -31,6 +31,7 @@ Keyblade
 Maelle
 Majima
 mashy
+Megami
 Metroidvania
 Mixtape
 noarchive
@@ -41,6 +42,7 @@ Pictos
 playthrough
 pragmata
 Pugnala
+ReFantazio
 roguelike
 roguelikes
 roguelite
@@ -50,6 +52,7 @@ Squanch
 subline
 synergize
 TacSim
+Tensei
 Tirajisu
 url
 Yakuza
