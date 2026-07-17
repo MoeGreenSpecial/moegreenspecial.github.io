@@ -4,6 +4,7 @@ Arendelle
 Atlus
 Bananza
 Capcom
+Cheeseleggers
 Chrono
 cinematics
 endcomment
@@ -13,6 +14,7 @@ evoker
 Exophase
 Fabrizio
 Frasier
+Fumi
 gamercard
 Gamercard
 Giatta
