@@ -14,3 +14,8 @@ game_title: # "Quoted and properly cased"
 * opera
 * abilities not explained
 * lots of characters early
+* status effects not obvious 
+* random encounters, especially during puzzle solving
+* where to go next
+* big cast, not just one hero story
+
