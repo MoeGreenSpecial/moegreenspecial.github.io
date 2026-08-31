@@ -9,6 +9,7 @@ game_platform: Steam
 game_score: 4
 game_time: "31h 0m"
 game_title: "Final Fantasy VI Pixel Remaster"
+title: Final Fantasy VI Pixel Remaster
 ---
 Having finished and enjoyed [Chrono Trigger]({% post_url games/2026-04-02-chrono-trigger %}) earlier this year, I thought it would be fun to also play Final Fantasy VI, as it's the other major JRPG of the era and shares some of the same creative team at Square.  I wound up enjoying myself, but liking it just a bit less than Chrono Trigger which felt very focused and well paced compared to the much more sprawling scope of Final Fantasy VI.
 
@@ -16,7 +17,7 @@ Final Fantasy VI has a very large cast of characters, which is both a benefit an
 
 Structurally, Final Fantasy VI starts out fairly linear, but it hits an incredibly unique moment at the mid-point.  Instead of the party being able to overcome Kefka, they fail, he destroys the world, and you must regroup for the second half which is significantly more open.  That structure, especially in a game from the early 1990s, was surprising and is probably the single thing I am most going to remember the game for.  That being said, the shift to the more open format did not help with the sprawl of the game and the pacing slowed down significantly in its second half.  I often ran into issues where I didn't know what to do next; I think the game just wanted you to roam around to find another cast member to bring back to the party, and that didn't feel great from a pacing perspective.
 
-The dungeons in this game are also a highlight, with each one being unique and none of them feeling tedious or repetitive.  The Opera in particular is a standout moment in the game, featuring a full musical sequence with Celes singing an aria to buy time for the rest of the party to fight off the backstage enemies. It's a dungeon where your main task is correctly performing a fake opera rather than focusing entirely on battles, and it's one of the best scenes in the game.
+The dungeons in this game are also a highlight, with each one being unique and none of them feeling tedious or repetitive.  The Opera in particular is a standout moment in the game, featuring a full musical sequence with Celes singing an aria to buy time for the rest of the party to fight off the backstage enemies. It's a dungeon built around actually performing the opera instead of just fighting through it, and it's one of the best parts of the game.
 
 And the music should be mentioned specifically, since aside from the structure of the game, the music is the thing that most stood out to me.  Not only is the music fantastic, but it does a great job of providing identity to each of the major areas in the game.  The Zozo theme in particular really stood out to me.  The pixel remaster contains updated music, and it fit in very well even with the older art style.
 
