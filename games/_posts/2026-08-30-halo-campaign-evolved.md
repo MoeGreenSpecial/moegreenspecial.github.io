@@ -9,6 +9,7 @@ game_platform: Xbox PC
 game_score: 4
 game_time: "9h 35m"
 game_title: "Halo: Campaign Evolved"
+title: "Halo: Campaign Evolved"
 ---
 Playing Halo: Campaign Evolved brought back strong memories of what I enjoyed so much about Halo: Combat Evolved while also providing an impressive graphical overhaul. The original is a hall of fame game, and as a faithful remake, Halo: Campaign Evolved is also an incredible FPS experience.  When I say faithful, I mean it.  This is Halo: Combat Evolved remade, there are only a few small changes to the original game outside the modernization of the presentation.  You're not getting a new Halo experience here, just a beautiful version of the original game.  It is beautiful though; the graphical updates here are top-notch, and more importantly Halo Studios has really captured the feel of Halo through their port to the Unreal Engine.  This game feels great to play, looks and sounds incredible, and is well worth the 10-hour investment.  
 
