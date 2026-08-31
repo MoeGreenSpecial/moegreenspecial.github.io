@@ -27,6 +27,7 @@ goty
 Gummi
 grindy
 Hitman
+Infectors
 JRPG
 JRPG-like
 Jorb
@@ -52,6 +53,7 @@ roguelike
 roguelikes
 roguelite
 roguelites
+Sangheili
 Smoove
 Squanch
 subline
