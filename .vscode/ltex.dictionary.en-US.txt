@@ -4,12 +4,14 @@ Arendelle
 Atlus
 Bananza
 Capcom
+Celes
 Cheeseleggers
 Chrono
 cinematics
 endcomment
 endif
 enix
+Esper
 evoker
 Exophase
 Fabrizio
@@ -28,6 +30,7 @@ Hitman
 JRPG
 JRPG-like
 Jorb
+Kefka
 Kena
 Keyblade
 Maelle
@@ -60,3 +63,4 @@ url
 Yakuza
 Yatzli
 Yukari
+Zozo
