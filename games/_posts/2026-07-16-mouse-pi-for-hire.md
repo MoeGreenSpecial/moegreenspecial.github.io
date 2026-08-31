@@ -9,6 +9,7 @@ game_platform: Steam
 game_score: 3
 game_time: "27h 8m"
 game_title: "Mouse: P.I. for Hire"
+title: "Mouse: P.I. for Hire"
 ---
 Mouse: P.I. for Hire nails the 1930s noir aesthetic but has gameplay that, while very fun, doesn't quite live up to the strong thematic vibes set up by the music and art style.
 
