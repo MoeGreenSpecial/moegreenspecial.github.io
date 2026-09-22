@@ -8,6 +8,7 @@ Celes
 Cheeseleggers
 Chrono
 cinematics
+Cly
 endcomment
 endif
 enix
@@ -28,9 +29,11 @@ Gummi
 grindy
 Hitman
 Infectors
+Jae
 JRPG
 JRPG-like
 Jorb
+Kabb
 Kefka
 Kena
 Keyblade
@@ -62,6 +65,7 @@ TacSim
 Tensei
 Tirajisu
 url
+Xcom
 Yakuza
 Yatzli
 Yukari
