@@ -63,6 +63,7 @@ subline
 synergize
 TacSim
 Tensei
+Tetris
 Tirajisu
 url
 Xcom
