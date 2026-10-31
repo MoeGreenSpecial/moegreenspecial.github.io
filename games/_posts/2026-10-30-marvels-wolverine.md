@@ -1,7 +1,7 @@
 ---
 layout: game
 tags: [ playstation, "insomniac games", adventure, superhero, marvel ]
-game_completed_date: 2026-10-28
+game_completed_date: 2026-10-30
 game_cover_art: https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob5mk.jpg
 game_like: true
 game_status:  completed
