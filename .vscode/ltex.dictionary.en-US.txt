@@ -16,6 +16,7 @@ Esper
 evoker
 Exophase
 Fabrizio
+Fenix
 Frasier
 Fumi
 gamercard
@@ -34,6 +35,7 @@ JRPG
 JRPG-like
 Jorb
 Kabb
+Kalona
 Kefka
 Kena
 Keyblade
